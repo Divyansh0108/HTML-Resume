@@ -1,0 +1,1 @@
+This is the very first resume capstone project, made using pure html and nothing else. Feel free to review the project and dm me on linkdin if you feel like it. Thanks for visiting!! You're the best.
