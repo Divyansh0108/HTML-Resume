@@ -1,0 +1,172 @@
+
+body {
+    background-color: #ffffff;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+    text-align: center; 
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto; 
+}
+
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid #dee2e6; 
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    border: 1px solid #dee2e6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #4d5a63;
+}
+
+
+ul li h3 {
+    text-align: center;
+}
+
+#aboutme li::before {
+    content: none;
+}
+nav a, footer a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover, footer a:hover {
+    background-color: #ffffff;
+    color: #007BFF;
+}
+
+h4 a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+h4 a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+
+ul li ul li {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #8f8dfd;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
